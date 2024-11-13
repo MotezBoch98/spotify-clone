@@ -2,6 +2,8 @@ import { useState } from "react";
 import { IconButton } from "@mui/material";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import FavoriteIcon from "@mui/icons-material/Favorite";
+import styles from "./styles.module.scss";
+
 
 const Like = () => {
   const [like, setLike] = useState(false);

@@ -1,6 +1,6 @@
 import Like from "../Like";
 import { IconButton } from "@mui/material";
-import peaches from "../../images/peaches.png";
+import peaches from "../../images/peaches.jpg";
 import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import SkipNextIcon from "@mui/icons-material/SkipNext";

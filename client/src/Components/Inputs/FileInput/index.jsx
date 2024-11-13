@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { Button } from "../../Button";
+import Button from "../../Button";
 import styles from "./styles.module.scss";
 
 const FileInput = ({
@@ -31,13 +31,13 @@ const FileInput = ({
       />
       {type === "image" && value && (
         <img
-          src={typeof value === "string" ? value : URLcreateObjectURL(value)}
+          src={typeof value === "string" ? value : URL.createObjectURL(value)}
           alt="file"
         />
       )}
-      {type == "audio" && value && (
+      {type === "audio" && value && (
         <audio
-          src={typeof value === "string" ? value : URLcreateObjectURL(value)}
+          src={typeof value === "string" ? value : URL.createObjectURL(value)}
           controls
         />
       )}

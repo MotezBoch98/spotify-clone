@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Button from "../../components/Button";
+import Button from "../../Components/Button";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -71,7 +71,7 @@ const Main = () => {
             <img src={logo} alt="logo" />
           </Link>
           <div className={styles.footer_1_links}>
-            <div className={stules.footer_heading}>Company</div>
+            <div className={styles.footer_heading}>Company</div>
             {companyLinks.map((link, index) => (
               <div className={styles.links} key={index}>
                 {link}
